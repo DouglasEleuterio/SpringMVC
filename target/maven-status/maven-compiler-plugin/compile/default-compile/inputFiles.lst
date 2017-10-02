@@ -1,4 +1,4 @@
-/home/dougas/Spring/SpringMVC/intro-spring-mvc/src/main/java/br/com/devmedia/curso/config/SpringInitConfig.java
-/home/dougas/Spring/SpringMVC/intro-spring-mvc/src/main/java/br/com/devmedia/curso/web/controller/WellcomeControler.java
-/home/dougas/Spring/SpringMVC/intro-spring-mvc/src/main/java/br/com/devmedia/curso/config/SpringMvcConfig.java
-/home/dougas/Spring/SpringMVC/intro-spring-mvc/src/main/java/br/com/devmedia/curso/config/RootConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/web/controller/WellcomeControler.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringInitConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringMvcConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/RootConfig.java

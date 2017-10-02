@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+overriddenByCSS=,syntaxcolor.private.non.system.symbol,syntaxcolor.number.literal,syntaxcolor.symbol.conflict.local,syntaxcolor.live.bracket.matching.color,syntaxcolor.public.non.system.symbols,syntaxcolor.live.bracket.matching.enabled,syntaxcolor.comment,syntaxcolor.string.literal,syntaxcolor.symbol.package,syntaxcolor.symbol.system,syntaxcolor.symbol.local,
+syntaxcolor.comment=204,223,53
+syntaxcolor.live.bracket.matching.color=240,240,240
+syntaxcolor.live.bracket.matching.enabled=true
+syntaxcolor.number.literal=240,240,240
+syntaxcolor.private.non.system.symbol=240,240,240
+syntaxcolor.public.non.system.symbols=240,240,240
+syntaxcolor.string.literal=240,240,240
+syntaxcolor.symbol.conflict.local=240,240,240
+syntaxcolor.symbol.local=240,240,240
+syntaxcolor.symbol.package=240,240,240
+syntaxcolor.symbol.system=240,240,240
