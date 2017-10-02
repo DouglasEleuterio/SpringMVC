@@ -1,0 +1,7 @@
+Aula 1
+
+Nesta aula configuramos o Projeto No eclipse.
+Configuramos as Dependencias do Spring e Spring MVC
+Configuramos as Dependencdas do JSTL, JSP-APi
+
+Configuramos o Maven com a responsabilidade de rodar o server, passando as configurações do Tomcat 7 para que ele use como container.
