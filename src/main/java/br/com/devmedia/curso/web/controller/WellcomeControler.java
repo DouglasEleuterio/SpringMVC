@@ -3,6 +3,7 @@ package br.com.devmedia.curso.web.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 /*
  * INformamos ao Spring que está é uma classe de Controler
  */
@@ -24,5 +25,12 @@ public class WellcomeControler {
 		
 		//O caminho WEB-INF/views/ Já está configurado no prefixo da Classe SpringMvcConfig
 		return "welcome";
+	}
+	
+	@RequestMapping(value = "/teste", method = RequestMethod.GET)
+	public ModelAndView teste (){
+		ModelAndView view = new ModelAndView("welcome");//Página que quero enviar o objeto
+		view.addObject("teste", "Olá fui enviado pelo Metodo ModelAndView do Wellcome Controler");
+		return view;
 	}
 }

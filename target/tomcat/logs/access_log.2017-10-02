@@ -1,3 +1,13 @@
 127.0.0.1 - - [02/Oct/2017:17:24:34 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 274 http-bio-9091-exec-3 855
 127.0.0.1 - - [02/Oct/2017:17:24:34 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 274 http-bio-9091-exec-1 3537
 127.0.0.1 - - [02/Oct/2017:17:24:34 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 274 http-bio-9091-exec-2 1543
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:39:08 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 285 http-bio-9091-exec-1 3606
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:39:47 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 285 http-bio-9091-exec-2 36
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:41:42 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 284 http-bio-9091-exec-1 3713
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:42:21 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 347 http-bio-9091-exec-2 56
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:42:47 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 347 http-bio-9091-exec-3 11
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:42:51 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 347 http-bio-9091-exec-4 24
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:42:51 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9091-exec-5 0
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:42:54 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 284 http-bio-9091-exec-6 34
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:43:54 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 404 - http-bio-9091-exec-1 0
+0:0:0:0:0:0:0:1 - - [02/Oct/2017:17:43:57 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 404 - http-bio-9091-exec-4 0
