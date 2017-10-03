@@ -24,7 +24,9 @@ public class WellcomeControler {
 		//o metodo responsável é o Resolver
 		
 		//O caminho WEB-INF/views/ Já está configurado no prefixo da Classe SpringMvcConfig
-		return "welcome";
+		//return "welcome";
+		return "redirect:/usuario/todos";// Redirecionando a página para o controler.
+		//Desta forma o List.jsp será carregado como primeira página da aplicação
 	}
 	
 	@RequestMapping(value = "/teste", method = RequestMethod.GET)
