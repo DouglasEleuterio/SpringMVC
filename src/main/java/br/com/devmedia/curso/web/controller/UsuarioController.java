@@ -48,9 +48,10 @@ public class UsuarioController {
 	}
 	
 	//Edição de Usuarios 
-	//Primeira parte localiza o usuario que iremos alterar
+	//Primeira parte localiza o usuario que iremos alterar e passa os dados para a edição
+	
 	@GetMapping("/update/{id}")
-	public ModelAndView preUpddate(@PathVariable("id")Long id, ModelMap model){ // PathVariable captura a informaçao que recebemos na URL e adiciona ao objeto
+	public ModelAndView preUpdate(@PathVariable("id")Long id, ModelMap model){ // PathVariable captura a informaçao que recebemos na URL e adiciona ao objeto
 		Usuario usuario = dao.getId(id); //  Pego o id do PathVariable e passo como parametro para o dao.getId (id)
 		model.addAttribute("usuario", usuario);
 		return new ModelAndView("/user/add", model);
