@@ -1,4 +1,8 @@
-/home/douglas-pc/Documentos/Projetos/SpringMVC/src/main/java/br/com/devmedia/curso/config/RootConfig.java
-/home/douglas-pc/Documentos/Projetos/SpringMVC/src/main/java/br/com/devmedia/curso/web/controller/WellcomeControler.java
-/home/douglas-pc/Documentos/Projetos/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringMvcConfig.java
-/home/douglas-pc/Documentos/Projetos/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringInitConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/domain/Usuario.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/web/controller/WellcomeControler.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/dao/UsuarioDaoImpl.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/dao/UsuarioDao.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringInitConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/SpringMvcConfig.java
+/home/dougas/Spring/SpringMVC/src/main/java/br/com/devmedia/curso/config/RootConfig.java

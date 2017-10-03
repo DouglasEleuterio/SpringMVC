@@ -20,9 +20,12 @@
 		<hr>
 		<div>
 			<!-- Atalho até o Controller que usaremos, caso usassemos o Link, teria que passar toda URL HTTp...UltimoPath -->
-			<spring:url value="/usuario/save" var="save" /> <!-- /Usuario(RequestMapping) nosso controle / Save o Metodo de Usuario -->
+			<spring:url value="${usuario.id == null ? '/usuario/save' : 'usuario/Update'}" var="save" /> <!-- /Usuario(RequestMapping) nosso controle / Save o Metodo de Usuario -->
 			<!--  Classe de Dominio USUARIO -->
 			<form:form modelAttribute="usuario" action="${save }" method="post">
+			
+			<!-- Enviando o Id para Update -->
+			<form:hidden path="id"/> <!-- Para que o ID do objeto editado vai junto com o Objeto no metodo Update, No caso do Insert não precisa ir por que o Id é gerado no metodo e não informado pelo usuario--> 
 
 				<div class="form-group">
 					<label for="nome">Nome: </label>
