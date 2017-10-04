@@ -54,7 +54,8 @@ public class UsuarioDaoImpl implements UsuarioDao{
 
 	@Override
 	public void excluir(Long id) {
-		us.removeIf((u) -> u.getId().equals(id));
+		us.removeIf((u) -> u.getId()
+				.equals(id));
 	}
 
 	@Override
